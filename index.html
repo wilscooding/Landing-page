@@ -1,213 +1,504 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Wilkin Ruiz Valerio | Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - iPortfolio Bootstrap Template</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+          rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
   </head>
-  <body class="is-preload">
-    <!-- Header -->
-    <div id="header">
-      <div class="top">
-        <!-- Logo -->
-        <div id="logo">
-          <span class="image avatar48">
-            <img src="images/banner.jpg" alt="" />
-          </span>
-          <h1 id="title">Wilkin Ruiz Valerio</h1>
-          <p>Software Engineer</p>
-        </div>
-        <!-- Nav -->
-        <nav id="nav">
-          <ul>
-            <li>
-              <a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a>
-            </li>
-            <li>
-              <a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a>
-            </li>
-            <li>
-              <a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
-            </li>
-            <li>
-              <a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
-            </li>
-          </ul>
-        </nav>
+  <body class="index-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+      <div class="profile-img">
+        <img src="assets/img/profile.jpg" alt="" class="img-fluid rounded-circle">
       </div>
-      <div class="bottom">
-        <!-- Social Icons -->
-        <ul class="icons">
+      <a href="index.html"
+         class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Wilkin Ruiz Valerio</h1>
+      </a>
+      <div class="social-links text-center">
+        <a href="https://github.com/wilscooding/" class="google-plus"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/wilkin-ruiz/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <nav id="navmenu" class="navmenu">
+        <ul>
           <li>
-            <a href="https://github.com/wilscooding" class="icon brands fa-github"><span class="label">Github</span></a>
+            <a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a>
           </li>
           <li>
-            <a href="https://linkedin.com/in/wilkin-ruiz"
-               class="icon brands fa-linkedin"><span class="label">Dribbble</span></a>
+            <a href="#about"><i class="bi bi-person navicon"></i> About</a>
           </li>
           <li>
-            <a href="mailto:wilkin.ruizvalerio@gmail.com"
-               class="icon solid fa-envelope"><span class="label">Email</span></a>
+            <a href="#skills"><i class="bi bi-file-earmark navicon"></i> Skills</a>
+          </li>
+          <li>
+            <a href="resume-viewer.html"><i class="bi bi-file-earmark-text navicon"></i> Resume</a>
+          </li>
+          <li>
+            <a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a>
           </li>
         </ul>
-      </div>
-    </div>
-    <!-- Main -->
-    <div id="main">
-      <!-- Intro -->
-      <section id="top" class="one dark cover">
-        <div class="container">
-          <header>
-            <h2 class="alt">
-              Hi! I'm <strong>Wilkin Ruiz Valerio</strong>, a passionate and dedicated Software Engineer.
-            </h2>
-            <p>
-              With expertise in cloud services, front-end and back-end development, and a strong commitment to delivering high-quality software solutions.
-            </p>
-          </header>
-          <footer>
-            <a href="#about" class="button scrolly">Explore My Work</a>
-          </footer>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/middlepic.jpg" alt="" data-aos="fade-in" class="">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <h2>Wilkin Ruiz Valerio</h2>
+          <p>
+            I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+          </p>
         </div>
       </section>
-      <!-- About Me -->
-      <section id="about" class="three">
-        <div class="container">
-          <header>
-            <h2>About Me</h2>
-          </header>
-          <a href="#" class="image featured">
-            <img src="images/pic08.jpg" alt="" />
-          </a>
+      <!-- /Hero Section -->
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>About</h2>
           <p>
             As a Cloud Engineer, I specialize in designing and implementing scalable cloud solutions using cutting-edge technologies. I am proficient in leveraging AWS services such as Lambda Functions, Amazon DynamoDB, and AWS SAM to build robust serverless architectures that meet the dynamic needs of modern applications. My expertise extends to GitHub Actions for CI/CD, Python for backend development, and JavaScript for frontend design.
             Continuously striving for professional growth, I am expanding my skills to include infrastructure as code (IaC) practices with Terraform. By mastering Terraform, I aim to streamline cloud resource management and deployment processes, ensuring consistency, reliability, and efficiency across projects.
           </p>
-        </p>
-      </div>
-    </section>
-    <!-- Portfolio -->
-    <section id="portfolio" class="two">
-      <div class="container">
-        <header>
-          <h2>Portfolio</h2>
-        </header>
-        <p>Here are some of the projects I've worked on, showcasing my skills and dedication to software engineering.</p>
-        <div class="row">
-          <div class="col-4 col-12-mobile">
-            <article class="item">
-              <a href="https://www.wilkinruiz.com/" class="image fit">
-                <img src="images/awsresumepic.PNG" alt="" />
-              </a>
-              <header>
-                <h3>AWS Website</h3>
-                <p>Cloud Engineer | AWS, Serverless Architecture</p>
-              </header>
-            </article>
-            <article class="item">
-              <a href="https://github.com/wilscooding/Cookit" class="image fit">
-                <img src="images/Cookit.gif" alt="" />
-              </a>
-              <header>
-                <h3>Cookit</h3>
-                <p>Full Stack Engineer | Python, JavaScript, FastAPI</p>
-              </header>
-            </article>
-          </div>
-          <div class="col-4 col-12-mobile">
-            <article class="item">
-              <a href="https://github.com/wilscooding/Auto-Hub" class="image fit">
-                <img src="images/AutoHub.gif" alt="" />
-              </a>
-              <header>
-                <h3>Auto Hub</h3>
-                <p>Full Stack Engineer | Python, JavaScript, Django</p>
-              </header>
-            </article>
-            <article class="item">
-              <a href="https://fjzapartments.com/" class="image fit">
-                <img src="images/FJZ.PNG" alt="" />
-              </a>
-              <header>
-                <h3>FJZ Apartments</h3>
-                <p>Cloud Engineer | Firebase services, OpenAI API, React, JavaScript</p>
-              </header>
-            </article>
-          </div>
-          <div class="col-4 col-12-mobile">
-            <article class="item">
-              <a href="#" class="image fit">
-                <img src="images/pic06.jpg" alt="" />
-              </a>
-              <header>
-                <h3>Dolor Penatibus</h3>
-              </header>
-            </article>
-            <article class="item">
-              <a href="#" class="image fit">
-                <img src="images/pic07.jpg" alt="" />
-              </a>
-              <header>
-                <h3>Orci Convallis</h3>
-              </header>
-            </article>
+        </div>
+        <!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100"></div>
+      </section>
+      <!-- /About Section -->
+      <!-- Skills Section -->
+      <section id="skills" class="skills section light-background">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Skills</h2>
+          <p>
+            Extensive expertise in cloud computing, programming languages, and database management, equipped to deliver robust and scalable software solutions.
+          </p>
+        </div>
+        <!-- End Section Title -->
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row skills-content">
+            <div class="col-lg-6">
+              <ul class="skills-list">
+                <li>
+                  <strong>Cloud Computing Platform:</strong> Amazon Web Services (AWS)
+                </li>
+                <li>
+                  <strong>Infrastructure as Code (IaC):</strong> AWS CloudFormation, AWS Serverless Application Model (SAM), AWS Lambda Functions
+                </li>
+                <li>
+                  <strong>Storage & Networking:</strong> Amazon S3, AWS API Gateway, AWS CloudFront, AWS Route 53, AWS Certificate Manager
+                </li>
+                <li>
+                  <strong>CI/CD:</strong> GitHub Actions, AWS CodePipeline
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul class="skills-list">
+                <li>
+                  <strong>Programming Languages:</strong> Python, JavaScript, SQL
+                </li>
+                <li>
+                  <strong>Web Technologies:</strong> HTML, CSS
+                </li>
+                <li>
+                  <strong>Containerization:</strong> Docker
+                </li>
+                <li>
+                  <strong>Database Management:</strong> PostgreSQL, MongoDB, AWS DynamoDB
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Contact -->
-    <section id="contact" class="four">
-      <div class="container">
-        <header>
-          <h2>
-            Contact
-          </h2>
-        </header>
-        <p>
-          Feel free to reach out to me for any inquiries or opportunities.
-        </p>
-        <form method="post" action="#">
-          <div class="row">
-            <div class="col-6 col-12-mobile">
-              <input type="text" name="name" placeholder="Name" />
+      </section>
+      <style>
+  .skills-list {
+    list-style: none;
+    padding: 0;
+  }
+  .skills-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .skills-list strong {
+    color: #333;
+  }
+      </style>
+      <!-- /Skills Section -->
+      <!-- Resume Section -->
+      <section id="resume" class="resume section">
+        <!-- Section Title -->
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section light-background">
+          <!-- Section Title -->
+          <section id="portfolio" class="portfolio section light-background">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>Technical Experience</h2>
             </div>
-            <div class="col-6 col-12-mobile">
-              <input type="text" name="email" placeholder="Email" />
+            <!-- End Section Title -->
+            <div class="container">
+              <div class="isotope-layout"
+                   data-layout="masonry"
+                   data-sort="original-order">
+                <div class="row gy-4 isotope-container"
+                     data-aos="fade-up"
+                     data-aos-delay="200">
+                  <!-- AWS Serverless Website -->
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                    <div class="portfolio-content h-100">
+                      <img src="assets/img/Portfoliowebsite.PNG"
+                           class="img-fluid"
+                           alt="AWS Serverless Website">
+                      <div class="portfolio-info">
+                        <h4>AWS Serverless Website</h4>
+                        <p>
+                          Live Website: <a href="https://www.wilkinruiz.com" target="_blank">wilkinruiz.com</a>
+                        </p>
+                        <a href="https://www.wilkinruiz.com"
+                           title="AWS Serverless Website"
+                           class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      <p>Technologies:</p>
+                      <ul class="tech-list">
+                        <li class="tech-item">AWS Lambda</li>
+                        <li class="tech-item">DynamoDB</li>
+                        <li class="tech-item">S3</li>
+                        <li class="tech-item">SAM</li>
+                        <li class="tech-item">
+                          API Gateway
+                        </li>
+                        <li class="tech-item">
+                          CloudFront
+                        </li>
+                        <li class="tech-item">
+                          Route 53
+                        </li>
+                        <li class="tech-item">
+                          Certificate Manager
+                        </li>
+                        <li class="tech-item">
+                          GitHub Actions
+                        </li>
+                        <li class="tech-item">
+                          Python
+                        </li>
+                        <li class="tech-item">
+                          JavaScript
+                        </li>
+                        <li class="tech-item">
+                          HTML/CSS
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Item -->
+                  <!-- FJZ Apartments -->
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                    <div class="portfolio-content h-100">
+                      <img src="assets/img/FJZ.PNG" class="img-fluid" alt="FJZ Apartments">
+                      <div class="portfolio-info">
+                        <h4>
+                          FJZ Apartments
+                        </h4>
+                        <p>
+                          Live Website: <a href="https://fjzapartments.com" target="_blank">fjzapartments.com</a>
+                        </p>
+                        <a href="https://fjzapartments.com"
+                           title="FJZ Apartments"
+                           class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      <p>
+                        Technologies:
+                      </p>
+                      <ul class="tech-list">
+                        <li class="tech-item">
+                          Firebase Hosting
+                        </li>
+                        <li class="tech-item">
+                          Firebase Authentication
+                        </li>
+                        <li class="tech-item">
+                          Firestore DB
+                        </li>
+                        <li class="tech-item">
+                          Firebase Functions
+                        </li>
+                        <li class="tech-item">
+                          OpenAI API
+                        </li>
+                        <li class="tech-item">
+                          React
+                        </li>
+                        <li class="tech-item">
+                          JavaScript
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Item -->
+                  <!-- Cookit -->
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                    <div class="portfolio-content h-100">
+                      <img src="assets/img/Cookit.gif" class="img-fluid" alt="Cookit">
+                      <div class="portfolio-info">
+                        <h4>
+                          Cookit
+                        </h4>
+                        <p>
+                          GitHub: <a href="https://github.com/wilscooding/Cookit" target="_blank">Cookit Repository</a>
+                        </p>
+                        <a href="https://github.com/wilscooding/Cookit"
+                           title="Cookit"
+                           class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      <p>
+                        Technologies:
+                      </p>
+                      <ul class="tech-list">
+                        <li class="tech-item">
+                          FastAPI (Python)
+                        </li>
+                        <li class="tech-item">
+                          React (JavaScript)
+                        </li>
+                        <li class="tech-item">
+                          PostgreSQL
+                        </li>
+                        <li class="tech-item">
+                          Docker
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Item -->
+                  <!-- Auto Hub -->
+                  <div class="col-lg-4 col-md-6 portfolio-item isotope-item">
+                    <div class="portfolio-content h-100">
+                      <img src="assets/img/AutoHub.gif" class="img-fluid" alt="Auto Hub">
+                      <div class="portfolio-info">
+                        <h4>
+                          Auto Hub
+                        </h4>
+                        <p>
+                          GitHub: <a href="https://github.com/wilscooding/Auto-Hub" target="_blank">Auto Hub Repository</a>
+                        </p>
+                        <a href="https://github.com/wilscooding/Auto-Hub"
+                           title="Auto Hub"
+                           class="details-link"><i class="bi bi-link-45deg"></i></a>
+                      </div>
+                      <p>
+                        Technologies:
+                      </p>
+                      <ul class="tech-list">
+                        <li class="tech-item">
+                          Django (Python)
+                        </li>
+                        <li class="tech-item">
+                          React (JavaScript)
+                        </li>
+                        <li class="tech-item">
+                          PostgreSQL
+                        </li>
+                        <li class="tech-item">
+                          Docker
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- End Portfolio Item -->
+                </div>
+                <!-- End Portfolio Container -->
+              </div>
             </div>
-            <div class="col-12">
-              <textarea name="message" placeholder="Message"></textarea>
+          </section>
+          <!-- /Portfolio Section -->
+          <!-- Contact Section -->
+          <section id="contact" class="contact section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+              <h2>
+                Contact
+              </h2>
+              <p>
+                Feel free to reach out to me for any inquiries or opportunities.
+              </p>
             </div>
-            <div class="col-12">
-              <input type="submit" value="Send Message" />
+            <!-- End Section Title -->
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="info-wrap">
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                      <i class="bi bi-geo-alt flex-shrink-0"></i>
+                      <div>
+                        <h3>
+                          Address
+                        </h3>
+                        <p>
+                          Bay Point, CA 94565
+                        </p>
+                      </div>
+                    </div>
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-envelope flex-shrink-0"></i>
+                      <div>
+                        <h3>
+                          Email
+                        </h3>
+                        <p>
+                          wilkin.aneudyruiz@gmail.com
+                        </p>
+                      </div>
+                    </div>
+                    <!-- End Info Item -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+                            frameborder="0"
+                            style="border:0;
+                                   width: 100%;
+                                   height: 270px"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <form action="forms/contact.php"
+                        method="post"
+                        class="php-email-form"
+                        data-aos="fade-up"
+                        data-aos-delay="200">
+                    <div class="row gy-4">
+                      <div class="col-md-6">
+                        <label for="name-field" class="pb-2">
+                          Your Name
+                        </label>
+                        <input type="text"
+                               name="name"
+                               id="name-field"
+                               class="form-control"
+                               required="">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="email-field" class="pb-2">
+                          Your Email
+                        </label>
+                        <input type="email"
+                               class="form-control"
+                               name="email"
+                               id="email-field"
+                               required="">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="subject-field" class="pb-2">
+                          Subject
+                        </label>
+                        <input type="text"
+                               class="form-control"
+                               name="subject"
+                               id="subject-field"
+                               required="">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="message-field" class="pb-2">
+                          Message
+                        </label>
+                        <textarea class="form-control"
+                                  name="message"
+                                  rows="10"
+                                  id="message-field"
+                                  required=""></textarea>
+                      </div>
+                      <div class="col-md-12 text-center">
+                        <div class="loading">
+                          Loading
+                        </div>
+                        <div class="error-message">
+                        </div>
+                        <div class="sent-message">
+                          Your message has been sent. Thank you!
+                        </div>
+                        <button type="submit">
+                          Send Message
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- End Contact Form -->
+              </div>
+            </div>
+          </section>
+          <!-- /Contact Section -->
+        </main>
+        <footer id="footer" class="footer position-relative light-background">
+          <div class="container">
+            <div class="copyright text-center ">
+              <p>
+                © <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span>
+              </p>
+            </div>
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you've purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
-        </form>
-      </div>
-    </section>
-  </div>
-  <!-- Footer -->
-  <div id="footer">
-    <!-- Copyright -->
-    <ul class="copyright">
-      <li>
-        &copy; Wilkin Ruiz Valerio. All rights reserved.
-      </li>
-    </ul>
-  </div>
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
-</html>
+        </footer>
+        <!-- Scroll Top -->
+        <a href="#"
+           id="scroll-top"
+           class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+        <!-- Preloader -->
+        <div id="preloader">
+        </div>
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/typed.js/typed.umd.js"></script>
+        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+        <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <!-- Main JS File -->
+        <script src="assets/js/main.js"></script>
+      </body>
+    </html>
